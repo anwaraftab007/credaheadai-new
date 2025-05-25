@@ -1540,7 +1540,7 @@ h6 {
 
 .preloader {
     position: fixed;
-    background-color: black;
+    background-color: white;
     background-position: center center;
     background-repeat: no-repeat;
     top: 0;
@@ -3235,12 +3235,6 @@ h6 {
     margin-bottom: 35px;
 }
 
-.footer-widget__title::before {
-    font-size: 12px;
-    color: var(--thm-base);
-    content: '||';
-    margin-right: 3px;
-}
 
 .footer-widget__menu {
     margin-bottom: 0;
@@ -3336,7 +3330,7 @@ h6 {
     border: none;
     outline: none;
     background-color: rgba(0, 0, 0, 0);
-    border-bottom: 3px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 3px solid #003566;
     color: var(--thm-text-dark);
     font-size: 14px;
     padding-bottom: 20px;
@@ -3357,7 +3351,7 @@ h6 {
     align-items: center;
     width: 19px;
     height: 19px;
-    border: 1px solid var(--thm-text-dark);
+    border: 1px solid #003566;
     font-size: 8px;
     color: var(--thm-text-dark);
     border-radius: 50%;
