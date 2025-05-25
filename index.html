@@ -23,7 +23,7 @@
     <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" />
     <link rel="stylesheet" href="assets/vendors/animate/animate.min.css" />
     <link rel="stylesheet" href="assets/vendors/fontawesome/css/all.min.css" />
-    <link rel="stylesheet" href="assets/vendors/finlon-icons/style.css" />
+    <link rel="stylesheet" href="./assets/vendors/finlon-icons/style.css" />
     <link rel="stylesheet" href="assets/vendors/jarallax/jarallax.css" />
     <link rel="stylesheet" href="assets/vendors/jquery-magnific-popup/jquery.magnific-popup.css" />
     <link rel="stylesheet" href="assets/vendors/nouislider/nouislider.min.css" />
@@ -31,8 +31,16 @@
     <link rel="stylesheet" href="assets/vendors/odometer/odometer.min.css" />
     <link rel="stylesheet" href="assets/vendors/swiper/swiper.min.css" />
     <link rel="stylesheet" href="assets/vendors/owl-carousel/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://solvency-credit.netlify.app/assets/css/owl.carousel.css" />
     <link rel="stylesheet" href="assets/vendors/owl-carousel/assets/owl.theme.default.min.css" />
-
+    <link rel="stylesheet" href="./index_files/solvency-style.css" />
+    <link rel="stylesheet" type="text/css" href="https://solvency-credit.netlify.app/assets/css/rs-spacing.css">
+    <link rel="stylesheet" type="text/css" href="https://solvency-credit.netlify.app/style.css">
+		<!-- style css -->
+		<!-- responsive css -->
+         
+		<link rel="stylesheet" type="text/css" href="https://solvency-credit.netlify.app/assets/css/responsive.css">
+<!--  -->
     <!-- template styles -->
     <link rel="stylesheet" href="assets/css/finlon.css" />
 </head>
@@ -152,13 +160,13 @@
                         <i class="fa fa-bars"></i>
                     </a>
                     <a href="#" class="main-menu__search search-toggler">
-                        <i class="icon-magnifying-glass"></i>
+                        <i class="fas fa-search"></i>
                     </a>
                     <a href="apply-now.html" class="thm-btn main-menu__btn">Request Loan</a>
                     <!-- /.thm-btn -->
                     <a href="tel:926668880000" class="main-menu__contact">
                         <span class="main-menu__contact__icon">
-                            <i class="icon-phone"></i>
+                            <i class="fa-solid fa-phone"></i>
                         </span><!-- /.main-menu__contact__icon -->
                         <span class="main-menu__contact__text">
                             <strong>92 666 888 0000</strong>
@@ -280,7 +288,7 @@
             <!-- /.slider-one__carousel__btns -->
             <div class="slider-one__box wow fadeInRight" data-wow-duration="1500ms">
                 <div class="slider-one__box__icon">
-                    <i class="icon-successful"></i>
+                    <i class="fa-solid fa-hands-praying"></i>
                 </div>
                 <!-- /.slider-one__box__icon -->
                 <div class="slider-one__box__content">
@@ -437,17 +445,15 @@
         </section>
 
 
-        <section class="about-two pt-60 pb-10 !md:pb-40">
+        <section class="about-two z-22  pt-60 pb-10 !md:pb-40">
             <div class="container">
-                <div class="row row-gutter-y-50 text-justify">
-                    <div class="col-lg-6 w-full flex justify-center items-center hidden md:block">
-                        <div class="mx-auto">
-                            <img src="./index_files/about-left.png" class="object-contain" alt="">
-                        </div>
-                        <!-- /.about-two__image -->
+                <div class="row row-gutter-y-50 !bg-white text-justify">
+                    <div class="col-lg-6 w-full h-full hidden md:flex justify-center items-center">
+                        <img src="./index_files/about-left.png" class="mx-auto object-contain max-md:w-full max-md:h-full max-md:object-cover" alt="">
                     </div>
+                    
                     <!-- /.col-lg-6 -->
-                    <div class="col-lg-6">
+                    <div class="col-lg-6 !bg-white">
                         <div class="about-two__content max-md:px-2 h-full">
                             <div class="block-title text-left">
                                
@@ -539,139 +545,123 @@
                 &quot;slidesPerGroup&quot;: 3
             }
         }}">
-                    <div class="swiper-wrapper" style="transform: translate3d(-2898px, 0px, 0px); transition-duration: 0ms;"><div class="swiper-slide swiper-slide-duplicate" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="7">
-                        <div class="border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3">
-                            <p class="text-gray-600 italic">
-                              I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.
-                            </p>
-                            <h3 class="text-lg font-semibold text-gray-900">Gary Dawson</h3>
-                            <span class="text-sm text-[#F4A300]">Analytics</span>
-                          </div>
-                          
-                          
-                        </div><div class="swiper-slide swiper-slide-duplicate" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="8">
-                            <div class="testimonials-one__box">
-                                <p><span>I was very impresed by the company service lore ipsum is simply free text used
-                                        by copy typing refreshing. Neque porro est dolorem ipsum quia.</span></p>
-                                <h3>Gary Dawson</h3>
-                                <span class="testi_sname">Analytics</span>
-                            </div><!-- /.testimonials-one__box -->
-                 
-                        </div>
-                        <div class="swiper-slide" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="0">
-                            <div class="border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3">
-                                <p class="text-gray-600 italic">
-                                  I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.
-                                </p>
-                                <h3 class="text-lg font-semibold text-gray-900">Gary Dawson</h3>
-                                <span class="text-sm text-[#F4A300]">Analytics</span>
-                              </div>
-                              
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="1">
-                            <div class="border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3">
-  <p class="text-gray-600 italic">
-    I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.
-  </p>
-  <h3 class="text-lg font-semibold text-gray-900">Gary Dawson</h3>
-  <span class="text-sm text-[#F4A300]">Analytics</span>
-</div>
+        <style>
+.testimonials-one__box p span::before {
+    content: "“";
+    font-size: 30px;
+    vertical-align: top;
+    margin-right: 5px;
+    color: #888;
+}
 
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="2">
-                            <div class="border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3">
-  <p class="text-gray-600 italic">
-    I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.
-  </p>
-  <h3 class="text-lg font-semibold text-gray-900">Gary Dawson</h3>
-  <span class="text-sm text-[#F4A300]">Analytics</span>
-</div>
+.testimonials-one__box p span::after {
+    content: "”";
+    font-size: 30px;
+    vertical-align: bottom;
+    margin-left: 5px;
+    color: #888;
+}
+.testimonial-card-quotes::after {
+    content: '"';
+    position: absolute;
+    bottom: -5px;
+    right: 40px;
+    font-size: 110px;
+    color: #000;
+    opacity: 0.2;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1;
+    pointer-events: none;
+}
+.testimonial-card-facts::after {
+    content: '!!';
+    position: absolute;
+    bottom: 35px;
+    right: 40px;
+    font-size: 40px;
+    color: #000;
+    opacity: 0.2;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 1;
+    pointer-events: none;
+}
 
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide swiper-slide-prev" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="3">
-                            <div class="border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3">
-  <p class="text-gray-600 italic">
-    I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.
-  </p>
-  <h3 class="text-lg font-semibold text-gray-900">Gary Dawson</h3>
-  <span class="text-sm text-[#F4A300]">Analytics</span>
-</div>
 
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide swiper-slide-active" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="4">
-                            <div class="border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3">
-  <p class="text-gray-600 italic">
-    I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.
-  </p>
-  <h3 class="text-lg font-semibold text-gray-900">Gary Dawson</h3>
-  <span class="text-sm text-[#F4A300]">Analytics</span>
-</div>
+        </style>
+  <div class="swiper-wrapper">
 
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide swiper-slide-next" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="5">
-                            <div class="border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3">
-  <p class="text-gray-600 italic">
-    I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.
-  </p>
-  <h3 class="text-lg font-semibold text-gray-900">Gary Dawson</h3>
-  <span class="text-sm text-[#F4A300]">Analytics</span>
-</div>
+    <!-- Slide 1 -->
+    <div class="swiper-slide" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="0">
+        <div class="testimonial-card-quotes border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3 relative">
+            <p class="text-gray-600 italic">“I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.”</p>
+            <h3 class="text-lg font-semibold text-gray-900">Gary Dawson</h3>
+            <span class="text-sm text-[#F4A300]">Analytics</span>
+        </div>
+    </div>
 
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="6">
-                            <div class="border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3">
-  <p class="text-gray-600 italic">
-    I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.
-  </p>
-  <h3 class="text-lg font-semibold text-gray-900">Gary Dawson</h3>
-  <span class="text-sm text-[#F4A300]">Analytics</span>
-</div>
+    <!-- Slide 2 -->
+    <div class="swiper-slide" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="1">
+        <div class="testimonial-card-quotes border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3 relative">
+            <p class="text-gray-600 italic">“I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.</p>
+            <h3 class="text-lg font-semibold text-gray-900">Sarah Thompson</h3>
+            <span class="text-sm text-[#F4A300]">Marketing</span>
+        </div>
+    </div>
 
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="7">
-                            <div class="border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3">
-  <p class="text-gray-600 italic">
-    I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.
-  </p>
-  <h3 class="text-lg font-semibold text-gray-900">Gary Dawson</h3>
-  <span class="text-sm text-[#F4A300]">Analytics</span>
-</div>
+    <!-- Slide 3 -->
+    <div class="swiper-slide" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="2">
+        <div class="testimonial-card-quotes border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3 relative">
+            <p class="text-gray-600 italic">“I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.</p>
+            <h3 class="text-lg font-semibold text-gray-900">Michael Lee</h3>
+            <span class="text-sm text-[#F4A300]">Development</span>
+        </div>
+    </div>
+ 
+    <!-- Slide 4 -->
+    <div class="swiper-slide" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="3">
+        <div class="testimonial-card-facts border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3 relative">
+            <p class="text-gray-600 italic">“I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.</p>
+            <h3 class="text-lg font-semibold text-gray-900">Nina Patel</h3>
+            <span class="text-sm text-[#F4A300]">Design</span>
+        </div>
+    </div>
 
-                        </div><!-- /.swiper-slide -->
-                        <div class="swiper-slide" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="8">
-                            <div class="border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3">
-  <p class="text-gray-600 italic">
-    I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.
-  </p>
-  <h3 class="text-lg font-semibold text-gray-900">Gary Dawson</h3>
-  <span class="text-sm text-[#F4A300]">Analytics</span>
-</div>
+    <!-- Slide 5 -->
+    <div class="swiper-slide" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="4">
+        <div class="testimonial-card-facts border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3 relative">
+            <p class="text-gray-600 italic">“I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.</p>
+            <h3 class="text-lg font-semibold text-gray-900">Ali Khan</h3>
+            <span class="text-sm text-[#F4A300]">Consulting</span>
+        </div>
+    </div>
 
-                        </div><!-- /.swiper-slide -->
-                    <div class="swiper-slide swiper-slide-duplicate" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="0">
-                            <div class="border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3">
-  <p class="text-gray-600 italic">
-    I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.
-  </p>
-  <h3 class="text-lg font-semibold text-gray-900">Gary Dawson</h3>
-  <span class="text-sm text-[#F4A300]">Analytics</span>
-</div>
+    <!-- Slide 6 -->
+    <div class="swiper-slide" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="5">
+        <div class="testimonial-card-facts border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3 relative">
+            <p class="text-gray-600 italic">“I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.</p>
+            <h3 class="text-lg font-semibold text-gray-900">Emily Zhang</h3>
+            <span class="text-sm text-[#F4A300]">HR</span>
+        </div>
+    </div>
 
-                        </div><div class="swiper-slide swiper-slide-duplicate" style="width: 453px; margin-right: 30px;" data-swiper-slide-index="1">
-                            <div class="border-l-4 border-[#F4A300] bg-white p-6 rounded-md shadow-md space-y-3">
-  <p class="text-gray-600 italic">
-    I was very impressed by the company service. Lorem ipsum is simply free text used by copy typing refreshing. Neque porro est dolorem ipsum quia.
-  </p>
-  <h3 class="text-lg font-semibold text-gray-900">Gary Dawson</h3>
-  <span class="text-sm text-[#F4A300]">Analytics</span>
-</div>
+</div><!-- /.swiper-wrapper -->
 
-                        </div></div><!-- /.swiper-wrapper -->
-
-                    <div class="!hidden testimonials-one__swiper-pagination swiper-pagination swiper-pagination-clickable swiper-pagination-bullets"><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span><span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 3"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span><span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span></div>
-                    <!-- /.testimonials-one__swiper-pagination swiper-pagination -->
-                <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span><span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div><!-- /.thm-swiper__slider -->
-            </div><!-- /.container -->
+                    
+                    <!-- Pagination Bullets -->
+                    <div class="!hidden testimonials-one__swiper-pagination swiper-pagination swiper-pagination-clickable swiper-pagination-bullets">
+                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 1"></span>
+                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 2"></span>
+                        <span class="swiper-pagination-bullet swiper-pagination-bullet-active" tabindex="0" role="button" aria-label="Go to slide 3"></span>
+                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 4"></span>
+                        <span class="swiper-pagination-bullet" tabindex="0" role="button" aria-label="Go to slide 5"></span>
+                    </div>
+                    
+                    <!-- Swiper notification (default, don't touch unless you override accessibility) -->
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+                    
         </section>
 
 
@@ -760,108 +750,170 @@
             <!-- /.container -->
         </section>
         <!-- /.slider-one -->
-        <section class="about-four pt-120 pb-120">
-            <div class="about-four__shape"></div>
-            <!-- /.about-four__shape -->
+     
+
+        <div class="rs-tab-main tab-content-style1 bg1 pt-120 pb-166 md-pt-80 md-pb-80">
             <div class="container">
-                <div class="row row-gutter-y-50">
-                    <div class="col-lg-6">
-                        <div class="about-four__content">
-                            <div class="block-title text-left">
-                                <p class="block-title__tagline">About Company</p>
-                                <!-- /.block-title__tagline -->
-                                <h2 class="block-title__title">Personal loans to fulfill your dreams</h2>
-                                <!-- /.block-title__title -->
-                            </div>
-                            <!-- /.block-title -->
-                            <div class="about-four__box">
-                                <div class="about-four__box__icon">
-                                    <i class="icon-loan"></i>
-                                </div>
-                                <!-- /.about-four__box__icon -->
-                                <div class="about-four__box__content">
-                                    <h3 class="about-four__box__title">We’re in this business since 1987 and we provide the best services.
-                                    </h3>
-                                    <!-- /.about-four__box__title -->
-                                </div>
-                                <!-- /.about-four__box__content -->
-                            </div>
-                            <!-- /.about-four__box -->
-                            <p class="about-four__text">Alteration in some form by injected humour. Duis aute irure dolor lipsum is simply free text available in the local markets in reprehenderit.</p>
-                            <!-- /.about-four__text -->
-                            <div class="row row-gutter-y-20">
-                                <div class="col-md-6">
-                                    <div class="about-four__feature">
-                                        <div class="about-four__feature__content">
-                                            <div class="about-four__feature__icon">
-                                                <i class="icon-confirmation"></i>
-                                            </div>
-                                            <!-- /.about-four__feature__icon -->
-                                            <h3 class="about-four__feature__title">Direct card payment</h3>
-                                            <!-- /.about-four__feature__title -->
-                                        </div>
-                                        <!-- /.about-four__feature__content -->
-                                        <div class="about-four__feature__text">Lorem ipsum dolor sit ame ed consectetur nod.
-                                        </div>
-                                        <!-- /.about-four__feature__text -->
-                                    </div>
-                                    <!-- /.about-four__feature -->
-                                </div>
-                                <!-- /.col-md-6 -->
-                                <div class="col-md-6">
-                                    <div class="about-four__feature">
-                                        <div class="about-four__feature__content">
-                                            <div class="about-four__feature__icon">
-                                                <i class="icon-confirmation"></i>
-                                            </div>
-                                            <!-- /.about-four__feature__icon -->
-                                            <h3 class="about-four__feature__title">Direct card payment</h3>
-                                            <!-- /.about-four__feature__title -->
-                                        </div>
-                                        <!-- /.about-four__feature__content -->
-                                        <div class="about-four__feature__text">Lorem ipsum dolor sit ame ed consectetur nod.
-                                        </div>
-                                        <!-- /.about-four__feature__text -->
-                                    </div>
-                                    <!-- /.about-four__feature -->
-                                </div>
-                                <!-- /.col-md-6 -->
-                            </div>
-                            <!-- /.row -->
-                            <div class="about-four__btns">
-                                <a href="about.html" class="thm-btn thm-btn--dark-hover">Discover More</a>
-                                <!-- /.thm-btn -->
-                            </div>
-                            <!-- /.about-four__btns -->
-                        </div>
-                        <!-- /.about-four__content -->
-                    </div>
-                    <!-- /.col-lg-6 -->
-                    <div class="col-lg-6">
-                        <div class="about-four__image">
-                            <div class="about-four__image__bg"></div>
-                            <!-- /.about-four__image__bg -->
-                            <div class="about-four__image__shape"></div>
-                            <!-- /.about-four__image__shape -->
-                            <img src="assets/images/resources/about-4-1.png" alt="">
-                            <div class="about-four__image__caption">
-                                <h3 class="about-four__image__caption__year">25<i>+</i></h3>
-                                <p class="about-four__image__caption__text">Years Experience
-                                </p>
-                                <!-- /.about-four__image__caption__text -->
-                            </div>
-                            <!-- /.about-four__image__caption -->
-                            <div class="about-four__image__floated">Finance</div>
-                            <!-- /.team-details__floated -->
-                        </div>
-                        <!-- /.about-four__image -->
-                    </div>
-                    <!-- /.col-lg-6 -->
+                <div class="sec-title mb-45">
+                    <span class="sub-text !text-[#F4A300]">Premium Services</span>
+                    <h2 class="title">
+                        Our Latest Services
+                    </h2>
                 </div>
-                <!-- /.row -->
+               <div class="rs-tab-main">
+                    <!-- Nav tabs -->
+                    <ul class="nav">
+                        <li class="nav-item">
+                            <a class="nav-link !bg-[#F4A300]" data-bs-toggle="tab" href="#credit-repair"
+                            style="background: white !important; color: black !important;">
+                                Credit Repair
+                                <em>
+                                    <img class="main-img" src="https://solvency-credit.netlify.app/assets/images/tab/main-img/1.png" alt="Tab">
+                                  
+                                </em>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" data-bs-toggle="tab" href="#credit-audit"
+                            style="background: white !important; color: black !important;">
+                            Credit Audit
+                            <em>
+                               <img class="main-img" src="https://solvency-credit.netlify.app/assets/images/tab/main-img/2.png" alt="Tab">
+                            </em>
+                         </a>
+                         
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover:bg-transparent" data-bs-toggle="tab" href="#education"
+                            style="background: white !important; color: black !important;">
+                                Education
+                                <em>
+                                    <img class="main-img" src="https://solvency-credit.netlify.app/assets/images/tab/main-img/3.png" alt="Tab">
+                                  
+                                </em>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link hover:bg-transparent" data-bs-toggle="tab" href="#business"
+                            style="background: white !important; color: black !important;">
+                                business
+                                <em>
+                                    <img class="main-img" src="https://solvency-credit.netlify.app/assets/images/tab/main-img/4.png" alt="Tab">
+                                  
+                                </em>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div class="tab-pane active show" id="credit-repair">
+                           <div class="row y-middle">
+                                  <div class="col-lg-6">
+                                      <div class="prelements-heading">
+                                          <h2 class="title">Credit Repair Services</h2>
+                                          <p class="description pb-17">
+                                              On the other hand we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment by desire.
+                                          </p>
+                                          <ul class="check-lists">
+                                               <li>We cannot promis specific timelineI guarantee results.</li>
+                                               <li>We cannot promis specific timelineI the guarantee</li>
+                                               <li>We cannot promis of specific timelineI options</li>
+                                          </ul>
+                                          <div class="btn-part mt-50">
+                                                    <a class="readon details !bg-[#F4A300]" href="/credit-repair">VIew Details</a>
+                                                </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-6">
+                                      <div class="tab-img">
+                                          <img src="https://solvency-credit.netlify.app/assets/images/tab/1.png" alt="Images">
+                                      </div>
+                                  </div>
+                           </div>                            
+                       </div>
+                       <div class="tab-pane" id="credit-audit">
+                           <div class="row y-middle">
+                                  <div class="col-lg-6">
+                                      <div class="prelements-heading">
+                                          <h2 class="title">Credit Audit Services</h2>
+                                          <p class="description pb-17">
+                                              On the other hand we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment by desire.
+                                          </p>
+                                          <ul class="check-lists">
+                                               <li>We cannot promis specific timelineI guarantee results.</li>
+                                               <li>We cannot promis specific timelineI the guarantee</li>
+                                               <li>We cannot promis of specific timelineI options</li>
+                                          </ul>
+                                          <div class="btn-part mt-50">
+                                                    <a class="readon details" href="/credit-audit">VIew Details</a>
+                                                </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-6">
+                                      <div class="tab-img">
+                                          <img src="https://solvency-credit.netlify.app/assets/images/tab/2.png" alt="Images">
+                                      </div>
+                                  </div>
+                           </div>                            
+                       </div>
+                       <div class="tab-pane" id="education">
+                           <div class="row y-middle">
+                                  <div class="col-lg-6">
+                                      <div class="prelements-heading">
+                                          <h2 class="title">Education System Services</h2>
+                                          <p class="description pb-17">
+                                              On the other hand we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment by desire.
+                                          </p>
+                                          <ul class="check-lists">
+                                               <li>We cannot promis specific timelineI guarantee results.</li>
+                                               <li>We cannot promis specific timelineI the guarantee</li>
+                                               <li>We cannot promis of specific timelineI options</li>
+                                          </ul>
+                                          <div class="btn-part mt-50">
+                                                    <a class="readon details" href="/credit-education">VIew Details</a>
+                                                </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-6">
+                                      <div class="tab-img">
+                                          <img src="https://solvency-credit.netlify.app/assets/images/tab/3.png" alt="Images">
+                                      </div>
+                                  </div>
+                           </div>                            
+                       </div>
+                       <div class="tab-pane" id="business">
+                           <div class="row y-middle">
+                                  <div class="col-lg-6">
+                                      <div class="prelements-heading">
+                                          <h2 class="title">Solvency Business Services</h2>
+                                          <p class="description pb-17">
+                                              On the other hand we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment by desire.
+                                          </p>
+                                          <ul class="check-lists">
+                                               <li>We cannot promis specific timelineI guarantee results.</li>
+                                               <li>We cannot promis specific timelineI the guarantee</li>
+                                               <li>We cannot promis of specific timelineI options</li>
+                                          </ul>
+                                          <div class="btn-part mt-50">
+                                                    <a class="readon details" href="/business-credit">VIew Details</a>
+                                                </div>
+                                      </div>
+                                  </div>
+                                  <div class="col-lg-6">
+                                      <div class="tab-img">
+                                          <img src="https://solvency-credit.netlify.app/assets/images/tab/4.png" alt="Images">
+                                      </div>
+                                  </div>
+                           </div>                            
+                       </div>
+                    </div>
+                    <!-- Nav tabs -->
+               </div>
             </div>
-            <!-- /.container -->
-        </section>
+        </div>
+
+
+
+
         <!-- /.about-four -->
         <section class="service-two mb--120">
             <div class="service-two__shape"></div>
@@ -873,7 +925,7 @@
                             <div class="service-card-two__shape"></div>
                             <!-- /.service-card-two__shape -->
                             <div class="service-card-two__icon">
-                                <i class="icon-smartphone"></i>
+                                <i class="fa fa-mobile" aria-hidden="true"></i>
                             </div>
                             <!-- /.service-card-two__icon -->
                             <div class="service-card-two__content">
@@ -897,7 +949,7 @@
                             <div class="service-card-two__shape"></div>
                             <!-- /.service-card-two__shape -->
                             <div class="service-card-two__icon">
-                                <i class="icon-operation"></i>
+                                <i class="fas fa-tasks"></i>
                             </div>
                             <!-- /.service-card-two__icon -->
                             <div class="service-card-two__content">
@@ -921,7 +973,7 @@
                             <div class="service-card-two__shape"></div>
                             <!-- /.service-card-two__shape -->
                             <div class="service-card-two__icon">
-                                <i class="icon-payment-gateway"></i>
+                                <i class="fas fa-handshake"></i>
                             </div>
                             <!-- /.service-card-two__icon -->
                             <div class="service-card-two__content">
@@ -1134,7 +1186,7 @@
                             <div class="service-card__content">
                                 <div class="service-card__content__inner">
                                     <div class="service-card__icon">
-                                        <i class="icon-car"></i>
+                                        <i class="fas fa-car"></i>
                                     </div>
                                     <!-- /.service-card__icon -->
                                     <h3 class="service-card__title">
@@ -1166,7 +1218,7 @@
                             <div class="service-card__content">
                                 <div class="service-card__content__inner">
                                     <div class="service-card__icon">
-                                        <i class="icon-diamond"></i>
+                                        <i class="fas fa-diamond"></i>
                                     </div>
                                     <!-- /.service-card__icon -->
                                     <h3 class="service-card__title">
@@ -1198,7 +1250,7 @@
                             <div class="service-card__content">
                                 <div class="service-card__content__inner">
                                     <div class="service-card__icon">
-                                        <i class="icon-house"></i>
+                                        <i class="fas fa-house"></i>
                                     </div>
                                     <!-- /.service-card__icon -->
                                     <h3 class="service-card__title">
@@ -1225,458 +1277,117 @@
             </div>
             <!-- /.container -->
         </section>
-        <!-- /.service-grid pt-120 pb-120 -->
-        <section class="loan-calculator loan-calculator--has-bg pt-120">
-            <div class="container">
-                <div class="loan-calculator__top">
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="block-title text-left">
-                                <p class="block-title__tagline">calculate your rate</p>
-                                <!-- /.block-title__tagline -->
-                                <h2 class="block-title__title">How much do you need loan for you?</h2>
-                                <!-- /.block-title__title -->
-                            </div>
-                            <!-- /.block-title -->
-                        </div>
-                        <!-- /.col-md-6 -->
-                        <div class="col-md-6">
-                            <p class="loan-calculator__top__text">Nullam vel nibh facilisis lectus fermentum ultrices quis non risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst.
-                            </p>
-                            <!-- /.loan-calculator__top__text -->
-                        </div>
-                        <!-- /.col-md-6 -->
-                    </div>
-                    <!-- /.row -->
-                </div>
-                <!-- /.loan-calculator__top -->
+  
 
-                <div class="loan-calculator__box">
-                    <div class="row row-gutter-x-0">
-                        <div class="col-lg-6">
-                            <form class="loan-calculator__form" action="contact.html" id="loan-calculator" data-interest-rate="15">
-                                <div class="input-box__top">
-                                    <span>$1000</span>
-                                    <span>$40000</span>
-                                </div>
-                                <!-- /.input-box__top -->
-                                <div class="input-box">
-                                    <div class="range-slider-count" id="range-slider-count"></div>
-                                    <input type="hidden" value="" id="min-value-rangeslider-count">
-                                    <input type="hidden" value="" id="max-value-rangeslider-count">
-                                </div>
-                                <!-- /.input-box -->
-                                <div class="input-box__top">
-                                    <span>1 Month</span>
-                                    <span>12 Months</span>
-                                </div>
-                                <!-- /.input-box__top -->
-                                <div class="input-box">
-                                    <div class="range-slider-month" id="range-slider-month"></div>
-                                    <input type="hidden" value="" id="min-value-rangeslider-month">
-                                    <input type="hidden" value="" id="max-value-rangeslider-month">
-                                </div>
-                                <!-- /.input-box -->
-                                <p>
-                                    <span>Pay Monthly</span>
-                                    <b>$<i id="loan-monthly-pay"></i></b>
-                                </p>
-                                <p>
-                                    <span>Term of Use</span>
-                                    <b><i id="loan-month"></i> Months</b>
-                                </p>
-                                <p>
-                                    <span>Total Pay Back</span>
-                                    <b>$<i id="loan-total"></i></b>
-                                </p>
-                                <a href="apply-now.html" class="thm-btn thm-btn--dark-hover">Apply For Loan</a>
 
-                                <div class="loan-calculator__form__terms">*These calculators are provided only as general self-help Planning Tools. Results depend on other factors.</div>
-                                <!-- /.loan-calculator__terms -->
-                            </form>
-                            <!-- /.about-one__from -->
-                        </div>
-                        <!-- /.col-lg-6 -->
-                        <div class="col-lg-6">
-                            <div class="loan-calculator__image">
-                                <img src="assets/images/resources/loan-calculator-1-1.png" alt="">
-                                <div class="loan-calculator__image__caption wow fadeInUp" data-wow-duration="1500ms">
-                                    <div class="loan-calculator__image__caption__inner">
-                                        <h3 class="loan-calculator__image__title">98<span>%</span></h3>
-                                        <!-- /.loan-calculator__image__title -->
-                                        <p class="loan-calculator__image__text">Satisfied Customers</p>
-                                    </div>
-                                    <!-- /.loan-calculator__image__caption__inner -->
-                                </div>
-                                <!-- /.loan-calculator__image__caption -->
-                            </div>
-                            <!-- /.loan-calculator__image -->
-                        </div>
-                        <!-- /.col-lg-6 -->
-                    </div>
-                    <!-- /.row -->
-                </div>
-                <!-- /.loan-calculator__box -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- /.loan-calculator -->
-        <section class="testimonials-one pt-120 mb--40">
+
+                <section class="rs-blog blog-main-home testimonials-one mb-12 md:my-24 pt-0 !md:pt-12">
             <div class="container">
                 <div class="block-title text-center">
-                    <p class="block-title__tagline">our testimonials</p>
-                    <!-- /.block-title__tagline -->
-                    <h2 class="block-title__title">What they’re talking about <br> our company</h2>
-                    <!-- /.block-title__title -->
-                </div>
-                <!-- /.block-title -->
-                <div class="row row-gutter-y-30">
-                    <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="000ms">
-                        <div class="testimonial-card">
-                            <div class="testimonial-card__info">
-                                <div class="testimonial-card__image">
-                                    <img src="assets/images/resources/testi-1-1.png" alt="Delia Riley">
+                    <p class="block-title__tagline max-md:text-left">News &amp; Blog</p>
+                    <h2 class="block-title__title max-md:text-left">
+                        Read Our Latest News<br> 
+                        &amp; Articals
+                </div><!-- /.block-title -->
+               
+                <div class="container mx-auto py-4 md:py-12">
+                    <div class="owl-carousel owl-theme">
+                        <div class="blog-item">
+                            <div class="image-wrap">
+                                <a href="/blog-single"><img src="https://solvency-credit.netlify.app/assets/images/blog/style1/6.jpg" alt=""></a>
+                                <div class="date !bg-[#F4A300]">
+                                    <i class="fi fi-rr-time-add"></i>
+                                    08 Feb 2022                                        
                                 </div>
-                                <!-- /.testimonial-card__image -->
-                                <div class="testimonial-card__meta">
-                                    <div class="testimonial-card__stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <!-- /.testimonial-card__stars -->
-                                    <h3 class="testimonial-card__name">Delia Riley</h3>
-                                    <!-- /.testimonial-card__name -->
-                                    <p class="testimonial-card__designation">Finance Manager</p>
-                                    <!-- /.testimonial-card__designation -->
-                                </div>
-                                <!-- /.testimonial-card__meta -->
                             </div>
-                            <!-- /.testimonial-card__info -->
-                            <span class="testimonial-card__line"></span>
-                            <!-- /.testimonial-card__line -->
-                            <div class="testimonial-card__text">
-                                <p>I loved the customer service you guys provided me. That was very nice and patient with questions I had. I would really like definitely come back here. Thank you for yours service.</p>
+                            <div class="blog-content">
+                                <h3 class="blog-title"><a href="/blog-single">Why Your Credit Score Keeps Dropptrue How to.</a></h3>
+                                <div class="desc">We denounce with righteous indige nation and dislike men who are...</div>
+                                <div class="blog-button"><a href="/blog-single" class="!bg-[#F4A300] py-2 px-3 text-white rounded-tr-xl rounded-bl-xl">Get Started</a></div>
                             </div>
-                            <!-- /.testimonial-card__text -->
                         </div>
-                        <!-- /.testimonial-card -->
-                    </div>
-                    <!-- /.col-lg-4 -->
-                    <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="100ms">
-                        <div class="testimonial-card">
-                            <div class="testimonial-card__info">
-                                <div class="testimonial-card__image">
-                                    <img src="assets/images/resources/testi-1-2.png" alt="Essie Perez">
-                                </div>
-                                <!-- /.testimonial-card__image -->
-                                <div class="testimonial-card__meta">
-                                    <div class="testimonial-card__stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <!-- /.testimonial-card__stars -->
-                                    <h3 class="testimonial-card__name">Essie Perez</h3>
-                                    <!-- /.testimonial-card__name -->
-                                    <p class="testimonial-card__designation">Finance Manager</p>
-                                    <!-- /.testimonial-card__designation -->
-                                </div>
-                                <!-- /.testimonial-card__meta -->
+                      <!-- Slide 1 -->
+                      <div class="blog-item">
+                        <div class="image-wrap">
+                            <a href="/blog-single"><img src="https://solvency-credit.netlify.app/assets/images/blog/style1/6.jpg" alt=""></a>
+                            <div class="date !bg-[#F4A300]">
+                                <i class="fi fi-rr-time-add"></i>
+                                08 Feb 2022                                        
                             </div>
-                            <!-- /.testimonial-card__info -->
-                            <span class="testimonial-card__line"></span>
-                            <!-- /.testimonial-card__line -->
-                            <div class="testimonial-card__text">
-                                <p>I loved the customer service you guys provided me. That was very nice and patient with questions I had. I would really like definitely come back here. Thank you for yours service.</p>
-                            </div>
-                            <!-- /.testimonial-card__text -->
                         </div>
-                        <!-- /.testimonial-card -->
-                    </div>
-                    <!-- /.col-lg-4 -->
-                    <div class="col-lg-4 col-md-12 wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="200ms">
-                        <div class="testimonial-card">
-                            <div class="testimonial-card__info">
-                                <div class="testimonial-card__image">
-                                    <img src="assets/images/resources/testi-1-3.png" alt="Dustin Dunn">
-                                </div>
-                                <!-- /.testimonial-card__image -->
-                                <div class="testimonial-card__meta">
-                                    <div class="testimonial-card__stars">
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                        <i class="fa fa-star"></i>
-                                    </div>
-                                    <!-- /.testimonial-card__stars -->
-                                    <h3 class="testimonial-card__name">Dustin Dunn</h3>
-                                    <!-- /.testimonial-card__name -->
-                                    <p class="testimonial-card__designation">Finance Manager</p>
-                                    <!-- /.testimonial-card__designation -->
-                                </div>
-                                <!-- /.testimonial-card__meta -->
-                            </div>
-                            <!-- /.testimonial-card__info -->
-                            <span class="testimonial-card__line"></span>
-                            <!-- /.testimonial-card__line -->
-                            <div class="testimonial-card__text">
-                                <p>I loved the customer service you guys provided me. That was very nice and patient with questions I had. I would really like definitely come back here. Thank you for yours service.</p>
-                            </div>
-                            <!-- /.testimonial-card__text -->
+                        <div class="blog-content">
+                            <h3 class="blog-title"><a href="/blog-single">Why Your Credit Score Keeps Dropptrue How to.</a></h3>
+                            <div class="desc">We denounce with righteous indige nation and dislike men who are...</div>
+                            <div class="blog-button"><a href="/blog-single" class="!bg-[#F4A300] py-2 px-3 text-white rounded-tr-xl rounded-bl-xl">Get Started</a></div>
                         </div>
-                        <!-- /.testimonial-card -->
                     </div>
-                    <!-- /.col-lg-4 -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- /.testimonials-one -->
-        <section class="fact-one pt-140 pb-100">
-            <div class="container">
-                <div class="row row-gutter-y-30">
-                    <div class="col-lg-3 col-md-6">
-                        <div class="fact-one__item">
-                            <div class="fact-one__count">
-                                <span class="count-box">
-                                    <span class="count-text" data-stop="90" data-speed="1500"></span>
-                                </span>%
+                  
+                      <!-- Slide 2 -->
+                      <div class="blog-item">
+                        <div class="image-wrap">
+                            <a href="/blog-single"><img src="https://solvency-credit.netlify.app/assets/images/blog/style1/6.jpg" alt=""></a>
+                            <div class="date !bg-[#F4A300]">
+                                <i class="fi fi-rr-time-add"></i>
+                                08 Feb 2022                                        
                             </div>
-                            <!-- /.fact-one__count -->
-                            <h3 class="fact-one__title">Loans Approve</h3>
-                            <!-- /.fact-one__title -->
                         </div>
-                        <!-- /.fact-one__item -->
-                    </div>
-                    <!-- /.col-lg-3 col-md-6 -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="fact-one__item">
-                            <div class="fact-one__count">$<span class="count-box">
-                                    <span class="count-text" data-stop="90" data-speed="1500"></span>
-                                </span>k</div>
-                            <!-- /.fact-one__count -->
-                            <h3 class="fact-one__title">Daily Payments</h3>
-                            <!-- /.fact-one__title -->
+                        <div class="blog-content">
+                            <h3 class="blog-title"><a href="/blog-single">Why Your Credit Score Keeps Dropptrue How to.</a></h3>
+                            <div class="desc">We denounce with righteous indige nation and dislike men who are...</div>
+                            <div class="blog-button"><a href="/blog-single" class="!bg-[#F4A300] py-2 px-3 text-white rounded-tr-xl rounded-bl-xl">Get Started</a></div>
                         </div>
-                        <!-- /.fact-one__item -->
                     </div>
-                    <!-- /.col-lg-3 col-md-6 -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="fact-one__item">
-                            <div class="fact-one__count"><span class="count-box">
-                                    <span class="count-text" data-stop="90" data-speed="1500"></span>
-                                </span>k</div>
-                            <!-- /.fact-one__count -->
-                            <h3 class="fact-one__title">Happy Customers</h3>
-                            <!-- /.fact-one__title -->
+                  
+                      <!-- Add more slides as needed -->
+                     <div class="blog-item">
+                        <div class="image-wrap">
+                            <a href="/blog-single"><img src="https://solvency-credit.netlify.app/assets/images/blog/style1/6.jpg" alt=""></a>
+                            <div class="date !bg-[#F4A300]">
+                                <i class="fi fi-rr-time-add"></i>
+                                08 Feb 2022                                        
+                            </div>
                         </div>
-                        <!-- /.fact-one__item -->
-                    </div>
-                    <!-- /.col-lg-3 col-md-6 -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="fact-one__item">
-                            <div class="fact-one__count"><span class="count-box">
-                                    <span class="count-text" data-stop="290" data-speed="1500"></span>
-                                </span>
-                                <!-- /.count-box -->
-                            </div>
-                            <!-- /.fact-one__count -->
-                            <h3 class="fact-one__title">Expert People</h3>
-                            <!-- /.fact-one__title -->
+                        <div class="blog-content">
+                            <h3 class="blog-title"><a href="/blog-single">Why Your Credit Score Keeps Dropptrue How to.</a></h3>
+                            <div class="desc">We denounce with righteous indige nation and dislike men who are...</div>
+                            <div class="blog-button"><a href="/blog-single" class="!bg-[#F4A300] py-2 px-3 text-white rounded-tr-xl rounded-bl-xl">Get Started</a></div>
                         </div>
-                        <!-- /.fact-one__item -->
                     </div>
-                    <!-- /.col-lg-3 col-md-6 -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- /.fact-one -->
-        <section class="benefit-one pt-120">
-            <div class="benefit-one__shape-1 wow fadeInLeft" data-wow-delay="000ms" data-wow-duration="1500ms" style="background-image: url(assets/images/backgrounds/benefit-bg-1-1.jpg);">
-            </div>
-            <!-- /.benefit-one__shape-1 -->
-            <div class="benefit-one__shape-2"></div>
-            <!-- /.benefit-one__shape-2 -->
-            <div class="container">
-                <div class="row row-gutter-y-60">
-                    <div class="col-lg-6">
-                        <div class="benefit-one__image wow fadeInUp" data-wow-duration="1500ms" data-wow-delay="500ms">
-                            <img src="assets/images/resources/benefit-1-1.png" alt="">
-                            <div class="benefit-one__image__caption">
-                                <h3 class="benefit-one__image__title">99.9%</h3>
-                                <!-- /.benefit-one__image__title -->
-                                <p class="benefit-one__image__text">Success Rates Guarantee</p>
-                                <!-- /.benefit-one__image__text -->
+                     <div class="blog-item">
+                        <div class="image-wrap">
+                            <a href="/blog-single"><img src="https://solvency-credit.netlify.app/assets/images/blog/style1/6.jpg" alt=""></a>
+                            <div class="date !bg-[#F4A300]">
+                                <i class="fi fi-rr-time-add"></i>
+                                08 Feb 2022                                        
                             </div>
-                            <!-- /.benefit-one__image__caption -->
                         </div>
-                        <!-- /.benefit-one__image -->
-                    </div>
-                    <!-- /.col-lg-6 -->
-                    <div class="col-lg-6">
-                        <div class="benefit-one__content">
-                            <div class="block-title text-left">
-                                <p class="block-title__tagline">our benefits</p>
-                                <!-- /.block-title__tagline -->
-                                <h2 class="block-title__title">Why you should choose our company</h2>
-                                <!-- /.block-title__title -->
-                            </div>
-                            <!-- /.block-title -->
-                            <p class="benefit-one__text">Nullam vel nibh facilisis lectus fermentum ultrices quis non risus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac habitasse platea dictumst. Duis porta, quam ut finibus ultrices, lorem lacus congue lorem et
-                                rutrum sapien magna tincidunt magna.
-                            </p>
-                            <!-- /.benefit-one__text -->
-                            <div class="benefit-one__box">
-                                <div class="benefit-one__box__icon">
-                                    <i class="icon-bank"></i>
-                                </div>
-                                <!-- /.benefit-one__box__icon -->
-                                <div class="benefit-one__box__content">
-                                    <h3 class="benefit-one__box__title">Lowest bank fees</h3>
-                                    <!-- /.benefit-one__box__title -->
-                                    <p class="benefit-one__box__text">Lorem ipsum dolor consectetur notte massa sapien samet. Aucibus sed sem non, mattis commodo nisi.</p>
-                                    <!-- /.benefit-one__box__text -->
-                                </div>
-                                <!-- /.benefit-one__box__content -->
-                            </div>
-                            <!-- /.benefit-one__box -->
-                            <div class="benefit-one__box">
-                                <div class="benefit-one__box__icon">
-                                    <i class="icon-payment"></i>
-                                </div>
-                                <!-- /.benefit-one__box__icon -->
-                                <div class="benefit-one__box__content">
-                                    <h3 class="benefit-one__box__title">Up to 20.000$ limit</h3>
-                                    <!-- /.benefit-one__box__title -->
-                                    <p class="benefit-one__box__text">Lorem ipsum dolor consectetur notte massa sapien samet. Aucibus sed sem non, mattis commodo nisi.</p>
-                                    <!-- /.benefit-one__box__text -->
-                                </div>
-                                <!-- /.benefit-one__box__content -->
-                            </div>
-                            <!-- /.benefit-one__box -->
-                            <div class="benefit-one__box">
-                                <div class="benefit-one__box__icon">
-                                    <i class="icon-smartphone-1"></i>
-                                </div>
-                                <!-- /.benefit-one__box__icon -->
-                                <div class="benefit-one__box__content">
-                                    <h3 class="benefit-one__box__title">Easy in 3 steps</h3>
-                                    <!-- /.benefit-one__box__title -->
-                                    <p class="benefit-one__box__text">Lorem ipsum dolor consectetur notte massa sapien samet. Aucibus sed sem non, mattis commodo nisi.</p>
-                                    <!-- /.benefit-one__box__text -->
-                                </div>
-                                <!-- /.benefit-one__box__content -->
-                            </div>
-                            <!-- /.benefit-one__box -->
+                        <div class="blog-content">
+                            <h3 class="blog-title"><a href="/blog-single">Why Your Credit Score Keeps Dropptrue How to.</a></h3>
+                            <div class="desc">We denounce with righteous indige nation and dislike men who are...</div>
+                            <div class="blog-button"><a href="/blog-single" class="!bg-[#F4A300] py-2 px-3 text-white rounded-tr-xl rounded-bl-xl">Get Started</a></div>
                         </div>
-                        <!-- /.benefit-one__content -->
                     </div>
-                    <!-- /.col-lg-6 -->
-                </div>
-                <!-- /.row -->
-            </div>
-            <!-- /.container -->
-        </section>
-        <!-- /.benefit-one -->
-        <section class="blog-one pt-120 pb-120">
-            <div class="container">
-                <div class="block-title text-center">
-                    <p class="block-title__tagline">What We’re Offering</p>
-                    <!-- /.block-title__tagline -->
-                    <h2 class="block-title__title">Our latest news updates <br> & articles</h2>
-                    <!-- /.block-title__title -->
-                </div>
-                <!-- /.block-title -->
-                <div class="row row-gutter-y-30">
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="blog-card">
-                            <div class="blog-card__image">
-                                <div class="blog-card__date"><span>05</span> Mar</div>
-                                <!-- /.blog-card__date -->
-                                <img src="assets/images/blog/blog-1-1.png" alt="Which growth strategies you should adopt">
-                                <a href="blog-details.html"></a>
+                     <div class="blog-item">
+                        <div class="image-wrap">
+                            <a href="/blog-single"><img src="https://solvency-credit.netlify.app/assets/images/blog/style1/6.jpg" alt=""></a>
+                            <div class="date !bg-[#F4A300]">
+                                <i class="fi fi-rr-time-add"></i>
+                                08 Feb 2022                                        
                             </div>
-                            <!-- /.blog-card__image -->
-                            <div class="blog-card__content">
-                                <div class="blog-card__meta">
-                                    <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a>
-                                    <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a>
-                                </div>
-                                <!-- /.blog-card__meta -->
-                                <h3 class="blog-card__title"><a href="blog-details.html">Which growth strategies you should adopt</a></h3>
-                                <p class="blog-card__text">Duis aute irure dolor lipsum simply free text the local markets.</p>
-                                <a href="blog-details.html" class="blog-card__link">Read More</a>
-                                <!-- /.blog-card__link -->
-                            </div>
-                            <!-- /.blog-card__content -->
                         </div>
-                        <!-- /.blog-card -->
-                    </div>
-                    <!-- /.col-lg-4 col-md-12 col-sm-12 -->
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="blog-card">
-                            <div class="blog-card__image">
-                                <div class="blog-card__date"><span>05</span> Mar</div>
-                                <!-- /.blog-card__date -->
-                                <img src="assets/images/blog/blog-1-2.png" alt="Which growth strategies you should adopt">
-                                <a href="blog-details.html"></a>
-                            </div>
-                            <!-- /.blog-card__image -->
-                            <div class="blog-card__content">
-                                <div class="blog-card__meta">
-                                    <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a>
-                                    <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a>
-                                </div>
-                                <!-- /.blog-card__meta -->
-                                <h3 class="blog-card__title"><a href="blog-details.html">Which growth strategies you should adopt</a></h3>
-                                <p class="blog-card__text">Duis aute irure dolor lipsum simply free text the local markets.</p>
-                                <a href="blog-details.html" class="blog-card__link">Read More</a>
-                                <!-- /.blog-card__link -->
-                            </div>
-                            <!-- /.blog-card__content -->
+                        <div class="blog-content">
+                            <h3 class="blog-title"><a href="/blog-single">Why Your Credit Score Keeps Dropptrue How to.</a></h3>
+                            <div class="desc">We denounce with righteous indige nation and dislike men who are...</div>
+                            <div class="blog-button"><a href="/blog-single" class="!bg-[#F4A300] py-2 px-3 text-white rounded-tr-xl rounded-bl-xl">Get Started</a></div>
                         </div>
-                        <!-- /.blog-card -->
                     </div>
-                    <!-- /.col-lg-4 col-md-12 col-sm-12 -->
-                    <div class="col-lg-4 col-md-12 col-sm-12">
-                        <div class="blog-card">
-                            <div class="blog-card__image">
-                                <div class="blog-card__date"><span>05</span> Mar</div>
-                                <!-- /.blog-card__date -->
-                                <img src="assets/images/blog/blog-1-3.png" alt="Which growth strategies you should adopt">
-                                <a href="blog-details.html"></a>
-                            </div>
-                            <!-- /.blog-card__image -->
-                            <div class="blog-card__content">
-                                <div class="blog-card__meta">
-                                    <a href="blog-details.html"><i class="far fa-user-circle"></i> by Admin</a>
-                                    <a href="blog-details.html"><i class="far fa-comments"></i> 2 Comments</a>
-                                </div>
-                                <!-- /.blog-card__meta -->
-                                <h3 class="blog-card__title"><a href="blog-details.html">Which growth strategies you should adopt</a></h3>
-                                <p class="blog-card__text">Duis aute irure dolor lipsum simply free text the local markets.</p>
-                                <a href="blog-details.html" class="blog-card__link">Read More</a>
-                                <!-- /.blog-card__link -->
-                            </div>
-                            <!-- /.blog-card__content -->
-                        </div>
-                        <!-- /.blog-card -->
                     </div>
-                    <!-- /.col-lg-4 col-md-12 col-sm-12 -->
-                </div>
-                <!-- /.row -->
-
-            </div>
-            <!-- /.container -->
+                  </div>
+                  
+                    
+                    
+                
+                    
         </section>
         <!-- /.blog-one -->
         <section class="call-to-action-two">
@@ -1738,13 +1449,19 @@
                         <!-- /.footer-widget -->
                     </div>
                     <!-- /.col-lg-4 -->
-                    <div class="col-lg-2 col-md-6">
+                    <div class="col-lg-2 col-md-6 max-md:hidden">
                         <div class="footer-widget footer-widget--links">
-                            <h3 class="footer-widget__title !text-black">
-                                Explore
-                            </h3>
-                            <!-- /.footer-widget__title -->
+                           
+                            <!-- /.list-unstyled footer-widget__menu -->
+                        </div>
+                        <!-- /.footer-widget -->
+                    </div>
+                    <!-- /.col-lg-2 -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget footer-widget--time">
+                            
                             <ul class="list-unstyled footer-widget__menu">
+                               
                                 <li>
                                     <a href="./index.html">
                                         <p class="!text-black">
@@ -1774,26 +1491,6 @@
                                     </a>
                                 </li>
                             </ul>
-                            <!-- /.list-unstyled footer-widget__menu -->
-                        </div>
-                        <!-- /.footer-widget -->
-                    </div>
-                    <!-- /.col-lg-2 -->
-                    <div class="col-lg-3 col-md-6">
-                        <div class="footer-widget footer-widget--time">
-                            <h3 class="footer-widget__title">
-                                Timing
-                            </h3>
-                            <!-- /.footer-widget__title -->
-                            <p class="footer-widget__text">
-                                Mon Fri: 7:00am - 6:00pm <br> Saturday: 9:00am - 5:00pm <br> Sunday: Closed
-                            </p>
-                            <div class="footer-widget__social">
-                                <a href="#"><i class="fab fa-twitter"></i></a>
-                                <a href="#"><i class="fab fa-facebook"></i></a>
-                                <a href="#"><i class="fab fa-pinterest"></i></a>
-                                <a href="#"><i class="fab fa-instagram"></i></a>
-                            </div>
                             <!-- /.footer-widget__social -->
                         </div>
                         <!-- /.footer-widget -->
@@ -1801,18 +1498,31 @@
                     <!-- /.col-lg-3 -->
                     <div class="col-lg-3 col-md-6">
                         <div class="footer-widget footer-widget--newsletter">
-                            <h3 class="footer-widget__title">
-                                Newsletter
-                            </h3>
-                            <!-- /.footer-widget__title -->
-                            <form class="footer-widget__mailchimp">
-                                <input type="email" placeholder="Email address">
-                                <p class="footer-widget__mailchimp__text">
-                                    <i class="fa fa-check"></i> I agree to all your terms and policies
-                                </p>
-                                <!-- /.footer-widget__mailchimp -->
-                            </form>
-                            <!-- /.footer-widget__mailchimp -->
+                            <ul class="list-unstyled footer-widget__menu">
+                               
+                                <li>
+                                    <a href="./contact.html">
+                                        <p class="!text-black">
+                                            Contact Us
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./provacy-policy.html">
+                                        <p class="!text-black">
+                                           Privacy Policy
+                                        </p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="./terms.html">
+                                        <p class="!text-black">
+                                            Terms of Use
+                                        </p>
+                                    </a>
+                                </li>
+
+                            </ul>
                         </div>
                         <!-- /.footer-widget -->
                     </div>
@@ -1913,6 +1623,29 @@
     <script src="assets/vendors/countdown/countdown.min.js"></script>
     <!-- template js -->
     <script src="assets/js/finlon.js"></script>
+    <script>
+        $(document).ready(function(){
+          $(".owl-carousel").owlCarousel({
+            loop: true,
+            margin: 20,
+            autoplay: true,
+            autoplayTimeout: 3000,
+            autoplayHoverPause: true,
+            responsive: {
+              0: {
+                items: 1
+              },
+              640: {
+                items: 2
+              },
+              1024: {
+                items: 3
+              }
+            }
+          });
+        });
+      </script>
+      
 </body>
 
 </html>
