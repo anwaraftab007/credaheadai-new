@@ -6071,17 +6071,7 @@ h6 {
     position: relative;
 }
 
-.about-four__image::before {
-    content: '';
-    position: absolute;
-    top: 20px;
-    left: 0;
-    right: 0;
-    bottom: 20px;
-    background-color: var(--thm-base);
-    transform: skew(-3deg);
-    z-index: 10;
-}
+
 
 .about-four__image img {
     position: relative;
